@@ -25,7 +25,7 @@ GERENCIANET_PIX_KEY=chave pix do gerencianet
 CODIGO PELO SSH:
 ```
 curl --request POST \
-  --url https://backend.dominio.com.br/subscription/create/webhook \
+  --url https://api.dominio.com.br/subscription/create/webhook \
   --header 'Content-Type: application/json' \
   --data '{ 
     "chave": "sua chave pix do gerencianet", 
@@ -39,6 +39,6 @@ URL: ```https://backend.dominio.com.br/subscription/create/webhook```
 ```
 	{ 
 		"chave": "sua chave pix do gerencianet", 
-		"url": "https://backend.dominio.com.br/subscription/webhook"
+		"url": "https://api.dominio.com.br/subscription/webhook"
 	}
 ```	
